@@ -1,0 +1,79 @@
+{
+  "badge": "Club Finder",
+  "headline": "Find a club that matches how you actually work.",
+  "subheadline": "This page is rendered from backend layout data so the question flow can change without rewriting the template.",
+  "intro": {
+    "eyebrow": "Smart Match",
+    "note": "Pick the options that feel natural. The point is fit, not optimization."
+  },
+  "actions": {
+    "back": "Back",
+    "next": "Next Step",
+    "submit": "See Matches",
+    "restart": "Start Over"
+  },
+  "steps": [
+    {
+      "id": "grade",
+      "label": "Grade",
+      "field": "selected_grade",
+      "selection": "single",
+      "prompt": "What grade are you in?",
+      "description": "This keeps the flow personalized without locking the page to a static question set.",
+      "options": [
+        {"value": "9th", "label": "9th Grade", "icon": "01", "description": "New campus energy"},
+        {"value": "10th", "label": "10th Grade", "icon": "02", "description": "Exploring options"},
+        {"value": "11th", "label": "11th Grade", "icon": "03", "description": "Dialing in interests"},
+        {"value": "12th", "label": "12th Grade", "icon": "04", "description": "Making final picks"}
+      ]
+    },
+    {
+      "id": "subjects",
+      "label": "Subjects",
+      "field": "selected_subjects",
+      "selection": "multi",
+      "prompt": "Which subjects hold your attention?",
+      "description": "Choose a few areas you keep returning to, even when nobody asks you to.",
+      "options": [
+        {"value": "math", "label": "Math", "icon": "∑", "description": "Patterns and problem solving"},
+        {"value": "science", "label": "Science", "icon": "⚗", "description": "Lab, theory, systems"},
+        {"value": "engineering", "label": "Engineering", "icon": "⚙", "description": "Design and build"},
+        {"value": "art", "label": "Art + Design", "icon": "✦", "description": "Visual and creative work"},
+        {"value": "writing", "label": "Writing", "icon": "✎", "description": "Stories and arguments"},
+        {"value": "environment", "label": "Environment", "icon": "◌", "description": "Sustainability and impact"}
+      ]
+    },
+    {
+      "id": "activities",
+      "label": "Activities",
+      "field": "selected_activities",
+      "selection": "multi",
+      "prompt": "How do you like spending your time?",
+      "description": "Pick the kinds of work that feel energizing rather than merely useful.",
+      "options": [
+        {"value": "build", "label": "Build", "icon": "⬢", "description": "Make things with your hands"},
+        {"value": "research", "label": "Research", "icon": "⌕", "description": "Investigate and dig in"},
+        {"value": "compete", "label": "Compete", "icon": "▲", "description": "Perform under pressure"},
+        {"value": "create", "label": "Create", "icon": "✺", "description": "Design, write, ship"},
+        {"value": "lead", "label": "Lead", "icon": "△", "description": "Coordinate and organize"},
+        {"value": "serve", "label": "Serve", "icon": "＋", "description": "Help people directly"}
+      ]
+    },
+    {
+      "id": "vibes",
+      "label": "Vibes",
+      "field": "selected_vibes",
+      "selection": "multi",
+      "prompt": "What kind of room feels right to you?",
+      "description": "This is the tone layer. Choose what makes you want to stay.",
+      "options": [
+        {"value": "technical", "label": "Technical", "icon": "◆", "description": "Precise, analytical, hands-on"},
+        {"value": "collaborative", "label": "Collaborative", "icon": "◍", "description": "Shared momentum"},
+        {"value": "creative", "label": "Creative", "icon": "✶", "description": "Open-ended experimentation"},
+        {"value": "leadership", "label": "Leadership", "icon": "▵", "description": "Visible ownership"},
+        {"value": "academic", "label": "Academic", "icon": "▣", "description": "Study and mastery"},
+        {"value": "impact", "label": "Impact-Driven", "icon": "✳", "description": "Community-facing work"}
+      ]
+    }
+  ]
+}

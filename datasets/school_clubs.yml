@@ -1,0 +1,120 @@
+- id: optix
+  name: FRC TEAM OPTIX 3749
+  home_label: FRC TEAM OPTIX 3749
+  alt: true
+  image: clubs/optix.png
+  image_alt: FRC Team Optix 3749
+  href: /search
+  categories: [STEM, Competition, All Clubs]
+  summary: Build robots, code systems, and compete in high-intensity engineering events.
+  tags: [coding, science, build, compete, hands-on, fast-paced, structured]
+
+- id: hosa
+  name: HOSA
+  home_label: HOSA
+  alt: false
+  image: clubs/hosa.png
+  image_alt: HOSA
+  href: /search
+  categories: [STEM, Competition, All Clubs]
+  summary: Explore healthcare pathways through challenges, prep events, and teamwork.
+  tags: [science, research, compete, lead, structured, social]
+
+- id: speech-debate
+  name: SPEECH & DEBATE
+  home_label: SPEECH & DEBATE
+  alt: true
+  image: clubs/speech_and_debate.png
+  image_alt: Speech and Debate
+  href: /search
+  categories: [Competition, All Clubs]
+  summary: Train persuasive speaking and argument strategy in formal competition formats.
+  tags: [english, history, research, perform, lead, structured, social]
+
+- id: mock-trial
+  name: MOCK TRIAL
+  home_label: MOCK TRIAL
+  alt: false
+  image: clubs/mock_trial.png
+  image_alt: Mock Trial
+  href: /search
+  categories: [Competition, All Clubs]
+  summary: Practice legal argumentation, case preparation, and courtroom teamwork.
+  tags: [english, history, research, perform, compete, structured, social]
+
+- id: deca
+  name: DECA
+  home_label: DECA
+  alt: true
+  image: clubs/deca.png
+  image_alt: DECA
+  href: /search
+  categories: [Competition, All Clubs]
+  summary: Build business and leadership skills through real-world case competitions.
+  tags: [business, lead, organize, compete, structured, social]
+
+- id: girls-in-cs
+  name: Girls In CS
+  home_label: Girls In CS
+  alt: false
+  image: clubs/girls_in_cs.png
+  image_alt: Girls In CS
+  href: /search
+  categories: [STEM, All Clubs]
+  summary: Learn coding collaboratively and build confidence through technical projects.
+  tags: [coding, math, science, build, create, social, impact]
+
+- id: sacs
+  name: South Asian Cultural Show
+  home_label: South Asian Cultural Show
+  alt: true
+  image: clubs/sacs.png
+  image_alt: South Asian Cultural Show
+  href: /search
+  categories: [Cultural/Society, All Clubs]
+  summary: Celebrate culture through performance, planning, and community storytelling.
+  tags: [community, perform, organize, social, impact, create]
+
+- id: acs
+  name: American Cancer Society
+  home_label: American Cancer Society
+  alt: false
+  image: clubs/acs.png
+  image_alt: American Cancer Society
+  href: /search
+  categories: [Advocacy/Awareness, All Clubs]
+  summary: Lead awareness campaigns and service projects for health causes.
+  tags: [community, impact, lead, organize, social, mentor]
+
+- id: interact
+  name: Interact Club
+  home_label: Interact Club
+  alt: true
+  image: clubs/interact.png
+  image_alt: Interact Club
+  href: /search
+  categories: [Charity/Volunteer, All Clubs]
+  summary: Coordinate volunteering and local service events with measurable impact.
+  tags: [community, impact, organize, lead, social, hands-on]
+
+- id: featheralist
+  name: The Featheralist
+  home_label: The Featheralist
+  alt: true
+  image: clubs/featheralist.png
+  image_alt: The Featheralist
+  href: /search
+  categories: [Interest/Sport, Arts, All Clubs]
+  summary: Create stories, visuals, and media content for campus publication.
+  tags: [english, design, create, research, independent, social]
+
+- id: link-crew
+  name: Link Crew
+  home_label: Link Crew
+  alt: true
+  image: clubs/link_crew.png
+  image_alt: Link Crew
+  href: /search
+  categories: [Charity/Volunteer, All Clubs]
+  summary: Mentor incoming students and run support programs for school culture.
+  tags: [community, mentor, lead, organize, social, impact]

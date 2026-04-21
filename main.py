@@ -37,6 +37,7 @@ from api.analytics import get_date_range
 # from api.grade_api import grade_api
 from api.study import study_api
 from api.feedback_api import feedback_api
+from api.recommendations_api import recommendations_api
 from model.study import Study, initStudies
 from model.classroom import Classroom
 from model.persona import Persona, initPersonas, initPersonaUsers
@@ -76,6 +77,7 @@ app.register_blueprint(student_api)
 app.register_blueprint(study_api)
 app.register_blueprint(classroom_api)
 app.register_blueprint(feedback_api)
+app.register_blueprint(recommendations_api)
 app.register_blueprint(data_export_import_api)  # Register the data export/import API
 app.register_blueprint(joke_api)  # Register the joke API blueprint
 app.register_blueprint(post_api)  # Register the social media post API

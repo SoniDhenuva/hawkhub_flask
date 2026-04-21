@@ -136,6 +136,32 @@ pip install -r requirements.txt
 | **Create Post** | `/api/post` | Creates a new post |
 | **Gemini AI** | `/api/gemini` | Chat with AI assistant |
 
+### Club Recommendations API
+
+- `GET /api/health` returns `{ "status": "ok" }`
+- `POST /api/recommendations` accepts survey answers, computes ranked club matches, saves them in SQLite, and returns the saved result
+- `GET /api/recommendations/<username>` returns the most recent saved recommendation run for that username
+
+Example Postman request:
+
+```json
+{
+  "username": "jane_doe",
+  "grade": "11",
+  "subjects": ["coding", "math"],
+  "activities": ["build", "compete"],
+  "vibes": ["technical", "competitive"]
+}
+```
+
+Run locally with:
+
+```bash
+flask --app main run --debug
+```
+
+The club catalog is stored in `datasets/school_clubs.yml` and recommendation runs persist in `instance/data/club_recommendations.db`.
+
 ### MicroBlog Operations
 | Method | Endpoint | Description |
 |--------|----------|-------------|

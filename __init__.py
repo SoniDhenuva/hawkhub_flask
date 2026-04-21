@@ -122,6 +122,10 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 app.config['DATA_FOLDER'] = os.path.join(app.instance_path, 'data')
 os.makedirs(app.config['DATA_FOLDER'], exist_ok=True)
 
+# Club recommendations configuration
+app.config['CLUB_RECOMMENDER_DB_PATH'] = os.environ.get('CLUB_RECOMMENDER_DB_PATH') or os.path.join(app.config['DATA_FOLDER'], 'club_recommendations.db')
+app.config['CLUB_RECOMMENDER_CLUBS_PATH'] = os.environ.get('CLUB_RECOMMENDER_CLUBS_PATH') or os.path.join(app.root_path, 'datasets', 'school_clubs.yml')
+
 
 # GITHUB settings
 app.config['GITHUB_API_URL'] = 'https://api.github.com'
