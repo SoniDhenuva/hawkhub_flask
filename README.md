@@ -139,8 +139,15 @@ pip install -r requirements.txt
 ### Club Recommendations API
 
 - `GET /api/health` returns `{ "status": "ok" }`
-- `POST /api/recommendations` accepts survey answers, computes ranked club matches, saves them in SQLite, and returns the saved result
-- `GET /api/recommendations/<username>` returns the most recent saved recommendation run for that username
+- `POST /api/recommendations` accepts survey answers from the frontend, computes ranked club matches, saves them in SQLite, and returns the saved result
+- `GET /api/recommendations?username=<username>` returns the most recent saved recommendation run for that username
+- `GET /api/recommendations/<username>` also returns the most recent saved recommendation run for that username
+
+Recommended flow:
+
+1. The frontend survey page sends a `POST /api/recommendations` request when the user finishes the survey.
+2. The backend saves the recommendations for that `username`.
+3. Postman or any client can later fetch the saved result with `GET /api/recommendations?username=<username>`.
 
 Example Postman request:
 
@@ -152,6 +159,12 @@ Example Postman request:
   "activities": ["build", "compete"],
   "vibes": ["technical", "competitive"]
 }
+```
+
+Example Postman fetch by username:
+
+```text
+GET http://127.0.0.1:8587/api/recommendations?username=jane_doe
 ```
 
 Run locally with:
