@@ -26,6 +26,7 @@ from api.classroom_api import classroom_api
 from api.data_export_import_api import data_export_import_api
 from hacks.joke import joke_api  # Import the joke API blueprint
 from api.post import post_api  # Import the social media post API
+from api.verify import verify_api  # OTP email verification for signup
 #from api.announcement import announcement_api ##temporary revert
 
 # database Initialization functions
@@ -81,6 +82,7 @@ app.register_blueprint(recommendations_api)
 app.register_blueprint(data_export_import_api)  # Register the data export/import API
 app.register_blueprint(joke_api)  # Register the joke API blueprint
 app.register_blueprint(post_api)  # Register the social media post API
+app.register_blueprint(verify_api)  # OTP email verification for signup
 # app.register_blueprint(announcement_api) ##temporary revert
 
 # Jokes file initialization
