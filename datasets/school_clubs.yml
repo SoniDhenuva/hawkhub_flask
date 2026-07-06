@@ -4,7 +4,7 @@
   alt: true
   image: clubs/optix.png
   image_alt: FRC Team Optix 3749
-  href: /search
+  href: /clubs/optix/
   categories: [STEM, Competition, All Clubs]
   summary: Build robots, code systems, and compete in high-intensity engineering events.
   tags: [coding, science, build, compete, hands-on, fast-paced, structured]
@@ -59,7 +59,7 @@
   alt: false
   image: clubs/girls_in_cs.png
   image_alt: Girls In CS
-  href: /search
+  href: /clubs/girls-in-cs/
   categories: [STEM, All Clubs]
   summary: Learn coding collaboratively and build confidence through technical projects.
   tags: [coding, math, science, build, create, social, impact]
@@ -118,3 +118,190 @@
   categories: [Charity/Volunteer, All Clubs]
   summary: Mentor incoming students and run support programs for school culture.
   tags: [community, mentor, lead, organize, social, impact]
+
+- id: academic-decathlon
+  name: Academic Decathlon
+  home_label: Academic Decathlon
+  alt: false
+  image: clubs/academic_decathlon.jpg
+  image_alt: Academic Decathlon
+  href: /search
+  categories: [Competition, All Clubs]
+  summary: Prepare for the National Academic Decathlon with rigorous study and speech training.
+  tags: [research, compete, structured, lead, social, english, history]
+
+- id: academic-league
+  name: Academic League
+  home_label: Academic League
+  alt: true
+  image: clubs/academic_league.jpg
+  image_alt: Academic League
+  href: /search
+  categories: [Competition, All Clubs]
+  summary: Compete in trivia challenges across North County with a team of sharp minds.
+  tags: [research, compete, structured, social, history, science]
+
+- id: agss
+  name: All Girls STEM Society
+  home_label: All Girls STEM Society
+  alt: false
+  image: clubs/agss.jpg
+  image_alt: All Girls STEM Society
+  href: /search
+  categories: [STEM, Advocacy/Awareness, All Clubs]
+  summary: Inspire young girls in STEM through free workshops and community outreach events.
+  tags: [science, math, mentor, impact, community, social, lead]
+
+- id: aphf
+  name: American Pacific Health Foundation
+  home_label: APHF
+  alt: false
+  image: clubs/aphf.jpg
+  image_alt: American Pacific Health Foundation
+  href: /search
+  categories: [Advocacy/Awareness, All Clubs]
+  summary: Educate peers about health topics and connect students with volunteer opportunities.
+  tags: [science, community, impact, social, research]
+
+- id: american-red-cross
+  name: American Red Cross
+  home_label: American Red Cross
+  alt: true
+  image: clubs/american_red_cross.jpg
+  image_alt: American Red Cross
+  href: /search
+  categories: [Charity/Volunteer, Advocacy/Awareness, All Clubs]
+  summary: Serve the community through Red Cross missions, card-making, and safety education.
+  tags: [community, impact, organize, social, hands-on, mentor]
+
+- id: animation-club
+  name: Animation Club
+  home_label: Animation Club
+  alt: false
+  image: clubs/animation_club.png
+  image_alt: Animation Club
+  href: /search
+  categories: [Arts, All Clubs]
+  summary: Learn animation techniques and work on hands-on creative projects with fellow artists.
+  tags: [design, create, hands-on, independent, social]
+
+- id: art-cares
+  name: Art Cares
+  home_label: Art Cares
+  alt: true
+  image: clubs/art_cares.jpg
+  image_alt: Art Cares
+  href: /search
+  categories: [Arts, All Clubs]
+  summary: Explore and promote the arts through instruction, events, and creative connection.
+  tags: [design, create, community, social, hands-on]
+
+- id: best-buddies
+  name: Best Buddies
+  home_label: Best Buddies
+  alt: false
+  image: clubs/best_buddies.png
+  image_alt: Best Buddies
+  href: /search
+  categories: [Charity/Volunteer, Advocacy/Awareness, All Clubs]
+  summary: Build genuine friendships with students with disabilities and champion inclusivity.
+  tags: [community, mentor, impact, social, lead]
+
+- id: birding-club
+  name: Del Norte Birding Club
+  home_label: Birding Club
+  alt: true
+  image: clubs/birding.jpg
+  image_alt: Del Norte Birding Club
+  href: /search
+  categories: [Interest/Sport, STEM, All Clubs]
+  summary: Learn to identify local birds, go birding outdoors, and contribute to citizen science.
+  tags: [science, research, hands-on, independent, community]
+
+- id: bio-club
+  name: Bio Club
+  home_label: Bio Club
+  alt: false
+  image: clubs/bio_club.jpg
+  image_alt: Bio Club
+  href: /search
+  categories: [STEM, Competition, All Clubs]
+  summary: Spark a love for biology and prep for the USA Biology Olympiad through workshops and lectures.
+  tags: [science, research, compete, structured, hands-on]
+
+- id: black-student-union
+  name: Black Student Union
+  home_label: Black Student Union
+  alt: true
+  image: clubs/bsu.jpg
+  image_alt: Black Student Union
+  href: /search
+  categories: [Cultural/Society, Advocacy/Awareness, All Clubs]
+  summary: Connect with Black culture on campus and celebrate traditions with the broader community.
+  tags: [community, social, impact, create, perform]
+
+- id: boys-rugby
+  name: Boys Rugby
+  home_label: Boys Rugby
+  alt: false
+  image: clubs/boys_rugby.jpg
+  image_alt: Boys Rugby
+  href: /search
+  categories: [Interest/Sport, All Clubs]
+  summary: Learn and play rugby in a fun, team-oriented environment on the back fields.
+  tags: [hands-on, compete, social, fast-paced]
+
+- id: brave-not-perfect
+  name: Brave, Not Perfect
+  home_label: Brave, Not Perfect
+  alt: true
+  image: clubs/brave_not_perfect.png
+  image_alt: Brave, Not Perfect
+  href: /search
+  categories: [Advocacy/Awareness, All Clubs]
+  summary: Build a bold mindset by embracing challenges, taking risks, and learning from failure.
+  tags: [community, social, lead, impact, independent]
+
+- id: care-club
+  name: Care Club
+  home_label: Care Club
+  alt: false
+  image: clubs/CARE.jpg
+  image_alt: Care Club
+  href: /search
+  categories: [Charity/Volunteer, All Clubs]
+  summary: Spread kindness and compassion throughout the school and broader community.
+  tags: [community, social, impact, mentor]
+
+- id: chess-club
+  name: Chess Club
+  home_label: Chess Club
+  alt: true
+  image: clubs/chess.jpg
+  image_alt: Chess Club
+  href: /search
+  categories: [Competition, Interest/Sport, All Clubs]
+  summary: Learn chess strategy, compete in tournaments, and connect with other players on campus.
+  tags: [math, compete, structured, social, independent]
+
+- id: child-rights-and-you
+  name: Child Rights and You
+  home_label: Child Rights and You
+  alt: false
+  image: clubs/cry.jpg
+  image_alt: Child Rights and You
+  href: /search
+  categories: [Advocacy/Awareness, Charity/Volunteer, All Clubs]
+  summary: Raise awareness for underprivileged children in India through the CRY organization.
+  tags: [community, impact, social, research, lead]
+
+- id: christians-in-action
+  name: Christians in Action
+  home_label: Christians in Action
+  alt: true
+  image: clubs/cia.jpg
+  image_alt: Christians in Action
+  href: /search
+  categories: [Cultural/Society, All Clubs]
+  summary: Build a Christian community of fellowship and faith open to all high school students.
+  tags: [community, social, independent]

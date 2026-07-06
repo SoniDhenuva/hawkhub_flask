@@ -212,6 +212,7 @@ def score_club(club, survey):
         'match_percentage': int(percentage),
         'summary': club['summary'],
         'href': club['href'],
+        'image_filename': club.get('image', ''),
         'matched_tags': matched_tags,
     }
 
